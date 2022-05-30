@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+
+body {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+position: relative;
+text-align: end;
+font-style: italic;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.randomQuote {
+  background-color: white;
+  padding: 20px;
+  width: min(400px, 80%);
+  box-shadow: 1px 1px 7px 2 #111;
+  position: relative;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.quote__btn {
+  display: block;
+  width: 40px;
+  font-size: 20px;
+  aspect-ratio: 1.3;
+  border-radius: 30%;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  -ms-border-radius: 30%;
+  -o-border-radius: 30%;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+  left: 100%;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 0 #111;
+  transition: box-shadow 200ms ease;
+  -webkit-transition: box-shadow 200ms ease;
+  -moz-transition: box-shadow 200ms ease;
+  -ms-transition: box-shadow 200ms ease;
+  -o-transition: box-shadow 200ms ease;
+}
+
+.card__btn:active {
+  box-shadow: 0 0 0 0 #111;
+  transition: box-shadow 200ms ease;
+}
+
+.text {
+  display: flex;
+}
+
+.fa-solid {
+  font-size: 60px;
+  margin: 0 10px 0 0;
+}
