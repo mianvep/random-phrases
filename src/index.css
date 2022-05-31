@@ -21,6 +21,7 @@ font-style: italic;
   justify-content: center;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
+  flex-direction: column;
 }
 
 .randomQuote {
@@ -78,4 +79,9 @@ font-style: italic;
 .fa-solid {
   font-size: 60px;
   margin: 0 10px 0 0;
+}
+
+.author {
+  margin-top: 30px;
+  color: #fff;
 }

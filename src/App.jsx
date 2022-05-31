@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Author from './components/Author';
 import QuoteBox from './components/QuoteBox';
 import quotes from './json/quotes.json'
 
@@ -36,6 +37,7 @@ function App() {
         colorRandom = {colorRandom}
         clickButton = {clickButton}
       />
+      <Author/>
     </div>
   )
 }
